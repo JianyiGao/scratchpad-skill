@@ -1,0 +1,7 @@
+interface:
+  display_name: "Scratchpad"
+  short_description: "Memory and todos for long AI chats"
+  default_prompt: "Use $scratchpad to preserve the current context, decisions, and revisit items for this chat."
+
+policy:
+  allow_implicit_invocation: true
